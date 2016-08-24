@@ -1,0 +1,208 @@
+/* Global */
+ul
+{
+    list-style-type: none;
+}
+
+body {
+	font-family: Ubuntu;
+}
+
+/* Helper Functions */
+
+.center{
+	margin-right: auto !important;
+	margin-left: auto !important;
+}
+
+/* Customs */
+
+.headerDivider {
+     border-left:1px solid #00bfff; 
+     border-right:1px solid #00bfff; 
+     height:100px;
+     position:absolute;
+     left:-20px; 
+}
+
+
+.navbar-collapse {
+	text-align: center;
+}
+
+.navbar-brand {
+	margin-top:10px;
+	float:none;
+	line-height: 2	;
+}
+
+.navbar-custom, header .intro-text .name {
+	font-family: Ubuntu; 
+}
+
+.quote {
+  background: -webkit-linear-gradient(to right, #ffffff , #00bfff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(to right, #ffffff, #00bfff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(to right, #ffffff, #00bfff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #ffffff,  #00bfff); /* Standard syntax */
+  padding:40px 100px;
+}
+
+.quote p:nth-child(1){
+	font-size: 48px;
+	color:#000000;
+}
+
+.quote p:nth-child(2){
+	font-size: 16px;
+	color:#000000;
+	float:right;
+}
+
+.ldp-content > p:nth-child(1) {
+	font-size: 38px;
+}
+
+.ldp-content > p:nth-child(2) {
+	font-size: 16px;
+}
+
+.ldp-button {
+	background-color: #00bfff;
+	color:#ffffff;
+	height:50px;
+	padding:14px 26px;
+	border-radius:14px;
+}
+
+.ldp-button-white {
+	background-color: #ffffff;
+	color:#00bfff;
+	height:50px;
+	padding:14px 26px;
+	border-radius:14px;
+}
+
+.ldp {
+	background: -webkit-linear-gradient(to right top, #ffffff, #ffffff, #00bfff , #00bfff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to right top, #ffffff, #ffffff, #00bfff , #00bfff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to right top, #ffffff, #ffffff, #00bfff , #00bfff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right top, #ffffff, #ffffff, #00bfff , #00bfff); /* Standard syntax */
+	background-repeat: no-repeat;
+	background-size: 1263px 766px;
+	height: 500px;
+	text-align: left;
+	color:#000000;
+}
+
+.ldpimg {
+	-webkit-filter: opacity(50%);
+	-o-filter: opacity(50%);
+	-moz-filter: opacity(50%);
+	filter: opacity(50%);
+	position:absolute;
+	width:1263px;
+	height:600px;
+	margin-top: 104px;
+}
+
+.twin-a .glyphicon, .twin-b .glyphicon {
+	margin:20px 0px;
+	font-size: 60px;
+}
+
+.twin-a a, .twin-b a {
+	color:inherit;
+}
+
+.twin-a {
+	text-align: center;
+	min-height: 300px;
+	background-color: #00bfff;
+	padding:40px 81px;
+	color:#ffffff;
+}
+
+.twin-b {
+	text-align: center;
+	min-height: 300px;
+	background-color: #ffffff;
+	padding:40px 81px;
+	color:#00bfff;
+}
+
+footer a {
+	color:#000000;
+}
+
+.footer-col {
+	text-align: left;
+} 
+
+.footer-col ul {
+	padding-left: 0px;
+}
+
+
+#mainNav {
+	background-color: #ffffff;
+}
+
+#mainNav * {
+	color: #000000;
+}
+
+#mainNav .btn-info { 
+	color: #ffffff;
+	height:30px;
+	margin-top:10px;
+	padding-top:5px;
+}
+
+.nav .ldp-button {
+	color:#ffffff !important;
+}
+
+
+footer, .footer-above, .footer-below{
+	background-color: #ffffff !important ;
+	color:#000000;
+}
+
+@media screen and (max-width: 768px) {
+    .quote p:nth-child(1){
+    	font-size: 20px;
+
+    }
+	.navbar-header {
+    	height:53px;
+    }
+	
+	.ldpimg{
+		margin-left:-115px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+    .ldp-content {
+    	margin-top:30px;
+    }
+    .ldpimg {
+    	margin-top:76px;
+    }
+	.navbar-toggle {
+		margin-top:12px;
+	}
+
+	.navbar-brand {
+		margin-top:3px;
+	}
+	.navbar-header {
+    	height:77px;
+    }
+
+	.ldp {
+		height:600px;
+	}
+
+}
